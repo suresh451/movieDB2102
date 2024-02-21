@@ -1,0 +1,47 @@
+.ul-list-movie {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.span {
+  color: black;
+  font-weight: bold;
+}
+
+.main-img {
+  width: 300px;
+  border-radius: 10px;
+}
+.genres-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.genres-item {
+  margin: 5px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .main-img {
+    width: 100px;
+    border-radius: 5px;
+  }
+
+  .name {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+  }
+}

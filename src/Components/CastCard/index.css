@@ -1,0 +1,38 @@
+.cast-card {
+  margin: 5px;
+}
+
+.original {
+  font-weight: bold;
+  color: black;
+}
+
+.character {
+  color: grey;
+  font-size: 12px;
+}
+
+.popular-img {
+  width: 180px;
+  border-radius: 5px;
+}
+
+.list-item-home {
+  margin: 5px;
+  text-decoration: none;
+  width: 180px;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .popular-img {
+    width: 100px;
+    border-radius: 3px;
+  }
+  .list-item-home {
+    margin: 3px;
+    text-decoration: none;
+    width: 100px;
+    color: black;
+  }
+}

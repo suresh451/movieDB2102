@@ -1,0 +1,41 @@
+.home-ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-container button {
+  padding: 8px 16px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.pagination-container button:disabled {
+  cursor: not-allowed;
+}
+
+.home-ul-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popular-movie-card {
+  /* Add styles for your PopularMovieCard component */
+  /* For example, you can set a max-width, margin, etc. */
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
